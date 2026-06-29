@@ -1,7 +1,7 @@
 import { User, Save } from 'lucide-react'
 import campos from './MiPerfil/datos'
 import Estilo from '../estilos/MiPerfil.module.css'
-import CampoInput from './comunes/CampoInput'
+import CampoInput from './InputPerfil/CampoInput'
 
 // PRINCIPIO DE RESPONSABILIDAD UNICA : SOLO COMONE CAMPOS DEL PERFIL
 // PRINCIPIO OPEN CLOSE : PARA AGREGAR UN CAMPO NUEVO SOLO SE AÑADE UN OBJETO EN datos.js
