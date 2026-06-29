@@ -1,0 +1,15 @@
+.titulo {
+  color: #A44949;
+  font-weight: bold;
+}
+.tarjeta {
+  border-radius: var(--radio-tarjeta);
+  border: 0;
+  box-shadow: var(--sombra-suave);
+}
+.boton {
+  background: #A44949;
+  color: white;
+  font-weight: 600;
+  padding: 0.5rem;
+}

@@ -1,0 +1,45 @@
+.titulo {
+  color: var(--color-primario);
+  font-weight: bold;
+}
+
+.tarjetaNormal {
+  border-radius: var(--radio-tarjeta);
+  border: 0;
+  box-shadow: var(--sombra-suave);
+}
+
+.icono {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  margin: 0 auto 1rem;
+}
+
+.precio {
+  color: var(--color-primario);
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.item {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.check {
+  color: var(--color-exito);
+}
+
+.botonPrimario {
+  background: var(--color-primario);
+  color: white;
+  font-weight: 600;
+  width: 100%;
+}

@@ -1,0 +1,58 @@
+.titulo {
+  color: #A44949;
+  font-weight: bold;
+}
+
+.tarjeta {
+  border-radius: var(--radio-tarjeta);
+  border: 0;
+  box-shadow: var(--sombra-suave);
+}
+
+.vacio {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: #888;
+}
+
+.vacioBoton {
+  background: #A44949;
+  color: white;
+  font-weight: 600;
+  padding: 0.5rem 1.5rem;
+  margin-top: 1rem;
+}
+
+.estado {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.3rem 0.7rem;
+  border-radius: 50rem;
+}
+.pendiente {
+  background: #fef3c7;
+  color: #b45309;
+}
+
+.aprobada {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.rechazada {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.botonEditar {
+  background: #A44949;
+  color: white;
+  font-weight: 600;
+}
+
+.botonEliminar {
+  background: white;
+  color: #A44949;
+  border: 1px solid #A44949;
+  font-weight: 600;
+}

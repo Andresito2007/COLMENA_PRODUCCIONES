@@ -1,0 +1,25 @@
+.titulo {
+  color: #A44949;
+  font-weight: bold;
+}
+.avatar {
+  width: 80px;
+  height: 80px;
+  background: #fce7e7;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+}
+.tarjeta {
+  border-radius: var(--radio-tarjeta);
+  border: 0;
+  box-shadow: var(--sombra-suave);
+}
+.boton {
+  background: #A44949;
+  color: white;
+  font-weight: 600;
+  padding: 0.5rem;
+}

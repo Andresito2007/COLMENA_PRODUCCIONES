@@ -1,0 +1,8 @@
+:root {
+  --color-primario: #A44949;
+  --color-secundario: #8b3a3a;
+  --color-exito: #16a34a;
+  --radio-tarjeta: 16px;
+  --sombra-suave: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --sombra-fuerte: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
