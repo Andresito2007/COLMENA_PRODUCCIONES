@@ -8,8 +8,12 @@ const clasesEstado = {
   PENDIENTE: Estilo.pendiente,
 }
 
-function EstadoProforma({estado}) {
-  return clasesEstado[estado] || Estilo.pendiente
+function EstadoProforma({ estado }) {
+  return (
+    <span className={`${Estilo.estado} ${clasesEstado[estado] || Estilo.pendiente}`}>
+      {estado}
+    </span>
+  )
 }
 
 export default EstadoProforma
