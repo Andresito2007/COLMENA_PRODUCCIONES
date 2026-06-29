@@ -26,9 +26,7 @@ function MisProformas() {
                 <div className="card-body p-4">
                   <div className="d-flex justify-content-between align-items-start mb-3">
                     <h5 className="fw-bold m-0">{p.tipo}</h5>
-                    <span className={`${Estilo.estado} ${EstadoProforma(p.estado)}`}>
-                      {p.estado}
-                    </span>
+                    <EstadoProforma estado={p.estado} />
                   </div>
                   <p className="text-muted small m-0">FECHA: {p.fecha}</p>
                   <p className="text-muted small m-0">LUGAR: {p.lugar}</p>
